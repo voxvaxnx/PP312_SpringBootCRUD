@@ -49,7 +49,6 @@ public class User implements Serializable {
         this.lastname = lastname;
     }
 
-
     @Override
     public int hashCode() {
         int result = (int) (getId() ^ (getId() >>> 32));
